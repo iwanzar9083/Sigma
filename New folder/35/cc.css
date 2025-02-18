@@ -1,0 +1,9 @@
+*{
+    font-size: 140%;
+    background-color: rgb(148, 196, 201);
+    color: white;
+}
+.car::selection{
+    color: aqua;
+    background-color: black;
+}
