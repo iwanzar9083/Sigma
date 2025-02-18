@@ -1,0 +1,108 @@
+body{
+    /* background-color: rgb(205, 223, 224); */
+}
+header{
+   
+    /* border: 2px solid black; */
+    /* box-shadow: 5px 4px 10px black; */
+    /* border: 100% solid black; */
+    /* background-color: rgb(5, 210, 242); */
+    
+    
+   
+}
+.logo img{
+
+    height: 80px;
+    width: 244px;
+    border-radius: 80px;
+    /* &:hover{
+        box-shadow: 1px 2px 5px black;
+      transform: scale(1.1);
+      animation-duration: 50ms;
+    
+    } */
+       
+}
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+   }
+.bar ul{
+    display: flex;
+    gap: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 28px;
+
+}
+.bar ul li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+    &:hover{
+        color: rgb(249, 3, 184);
+        /* background-color: rgb(199, 169, 126); */
+       border-radius: 15%;
+       font-size: 120%;
+       font-weight: 900;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+}
+.span{
+    padding: 50px
+}
+
+
+.boxs{
+    padding: 50px;
+    /* width: 1080x; */
+    height: 1080px;
+    border: 2px solid black;
+    display: grid;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 80px;
+    grid-template-areas: "first first first"
+                         "second  second second"
+                         "third third third";
+
+
+}
+.box{
+    height: 290px;
+    width: 444px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.box-1{
+   
+    grid-area:first ;
+    background-color: rgb(141, 141, 213);
+}
+.box-2{
+    grid-area:first;
+    background-color: aqua;
+}
+.box-3{
+    grid-area: first;
+    background-color: blueviolet;
+}
+.box-4{
+    grid-area:first ;
+    background-color: rgb(205, 102, 186);
+}
+.box-5{
+    grid-area: first;
+    background-color: rgb(154, 158, 208);
+}
